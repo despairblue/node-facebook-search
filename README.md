@@ -3,12 +3,12 @@
 A simple Facebook Graph Searching API for [node.js] (http://nodejs.org). This module requires that you have a FaceBook APP ID, check out [Facebook - Authenticating as an App] (https://developers.facebook.com/docs/authentication/applications/). For more information about the Search API check out the [Facebook Developer API] (https://developers.facebook.com/docs/reference/api/).
 
 ## Install
-...
+```
 npm install facebook-search
-...
+```
 
 ## Usage
-...
+```
 var FacebookSearch = require('../lib/facebook-search');
 
 var fb = new FacebookSearch('YOUR_APP_ID', 'YOUR_APP_SECRET');
@@ -26,7 +26,7 @@ fb.search(searchFor, function(err, res) {
         console.log(err ? err : res);
     });
 });
-...
+```
 
 ## Licence
 The MIT License (MIT)
