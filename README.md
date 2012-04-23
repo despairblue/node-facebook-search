@@ -9,7 +9,7 @@ npm install facebook-search
 
 ## Usage
 ```
-var FacebookSearch = require('../lib/facebook-search');
+var FacebookSearch = require('facebook-search');
 
 var fb = new FacebookSearch('YOUR_APP_ID', 'YOUR_APP_SECRET');
 var searchFor = {
