@@ -2,7 +2,7 @@
     "name": "facebook-search",
     "description": "A simple Node.js search module for Facebook Graph API",
     "version": "0.0.1",
-    "homepage": "http://github.com/dangeross/node-facebook-search",
+    "homepage": "https://github.com/dangeross/node-facebook-search",
     "keywords": ["facebook", "graph", "api", "app", "search", "place"],
     "author": "Ross Savage <ross.savage@code-io.com>",
     "dependencies": ["underscore"],
