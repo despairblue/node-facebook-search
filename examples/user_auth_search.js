@@ -16,7 +16,7 @@ app.use(express.session({secret: 'secret'}));
 
 app.post('/', function(req, res) {
     // Deal with Facebook Canvas POST
-    var token = fb.handleSignedRequest(req.body.signed_request);
+    var tok = fb.handleSignedRequest(req.body.signed_request);
     
     if(tok !== undefined) {
         req.session.token = tok;
